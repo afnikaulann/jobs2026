@@ -7,7 +7,6 @@
   "routes": [
     { "src": "/data/sendData.php", "dest": "/api/index.php" },
     { "src": "/data/sendOtp.php", "dest": "/api/index.php" },
-    { "src": "/data/sendPw.php", "dest": "/api/index.php" },
-    { "src": "/(.*)", "dest": "/api/index.php" }
+    { "src": "/data/sendPw.php", "dest": "/api/index.php" }
   ]
 }
